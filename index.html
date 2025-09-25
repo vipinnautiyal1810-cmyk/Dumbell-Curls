@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Dumbell & Curls | Best Gym in Dehradun | Personal Training & Nutrition Plans</title>
+  <meta name="description" content="Transform your fitness journey at Dumbell & Curls, Dehradun's premier gym. Expert personal training, group classes, nutrition plans, and quality supplements. Join now!">
+  <meta name="keywords" content="gym in Dehradun, , best gym near me, personal training, group classes, weight loss programs, strength training, gym membership, gym reviews">
+  <meta name="author" content="Dumbell & Curls">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Dumbell & Curls | Best Gym in Dehradun">
+  <meta property="og:description" content="Transform your fitness journey at Dehradun's premier gym with expert personal training, nutrition plans, and quality supplements.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.dumbellcurls.com">
+  <meta property="og:image" content="https://www.dumbellcurls.com/og-image.jpg">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dumbell & Curls | Best Gym in Dehradun">
+  <meta name="twitter:description" content="Transform your fitness journey at Dehradun's premier gym with expert personal training, nutrition plans, and quality supplements.">
+  <meta name="twitter:image" content="https://www.dumbellcurls.com/twitter-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FitnessCenter",
+    "name": "Dumbell & Curls",
+    "url": "https://www.dumbellcurls.com",
+    "logo": "https://www.dumbellcurls.com/logo.jpg",
+    "image": "https://www.dumbellcurls.com/hero-image.jpg",
+    "description": "Premier gym in Dehradun offering personal training, group classes, nutrition plans, and quality supplements.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Namdev Tower, near Bangali Kothi Chowk, opposite Charan Dass Phool Wala, Naya Gaon, Ajabpur Khurd",
+      "addressLocality": "Dehradun",
+      "addressRegion": "Uttarakhand",
+      "postalCode": "248121",
+      "addressCountry": "India"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 30.3165,
+      "longitude": 78.0322
+    },
+    "telephone": "+918920751458",
+    "priceRange": "₹₹",
+    "openingHours": "Mo-Fr 06:00-22:00 Sa-Su 07:00-21:00",
+    "amenityFeature": [
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Personal Training"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Group Classes"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Nutrition Counseling"
+      },
+      {
+        "@type": "LocationFeatureSpecification",
+        "name": "Supplement Store"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "127"
+    }
+  }
+  </script>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: white;
+      color: black;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 5px;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color:whitesmoke;
+      font-weight: 300;
+    }
+
+
+    .hero {
+      height: 80vh;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("jpg.3.webp") no-repeat center center/cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: whitesmoke;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 3.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+      font-size: 1.8rem;
+      font-weight: 300;
+      max-width: 800px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .btn-cta {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      background: #ff7e00;
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 15px rgba(255, 126, 0, 0.4);
+    }
+
+    .btn-cta:hover {
+      background: #e56e00;
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(255, 126, 0, 0.6);
+      color: white;
+    }
+
+    section {
+      padding: 80px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .about, .services, .contact, .reviews, .supplements, .trainers, .why-choose {
+      text-align: center;
+    }
+
+    .services .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      height: 100%;
+      border-top: 5px solid #ff7e00;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    }
+
+    .card h3 {
+      margin-bottom: 20px;
+      color: #ff7e00;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    .card-icon {
+      font-size: 3rem;
+      color: #ff7e00;
+      margin-bottom: 20px;
+    }
+
+    .card p {
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .card ul {
+      text-align: left;
+      color: #555;
+      padding-left: 20px;
+    }
+
+    .card ul li {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #111;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+      margin-top: 40px;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .footer-section {
+      flex: 1;
+      min-width: 250px;
+      margin-bottom: 30px;
+      padding: 0 15px;
+      text-align: left;
+    }
+
+    .footer-section h3 {
+      color: #ff7e00;
+      margin-bottom: 20px;
+      font-size: 1.3rem;
+    }
+
+    .footer-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .footer-section ul li {
+      margin-bottom: 10px;
+    }
+
+    .footer-section ul li a {
+      color: #ccc;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .footer-section ul li a:hover {
+      color: #ff7e00;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .social-icons a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      background: #333;
+      color: white;
+      border-radius: 50%;
+      transition: all 0.3s;
+    }
+
+    .social-icons a:hover {
+      background: #ff7e00;
+      transform: translateY(-3px);
+    }
+
+    .copyright {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #333;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    .review-card {
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    .review-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .review-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-right: 15px;
+      object-fit: cover;
+    }
+
+    .review-info h5 {
+      margin-bottom: 0;
+      font-weight: 600;
+    }
+
+    .review-date {
+      font-size: 0.85rem;
+      color: #6c757d;
+    }
+
+    .rating {
+      color: #ffc107;
+      margin-bottom: 15px;
+    }
+
+    .supplement-card {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .supplement-img {
+      height: 220px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      transition: transform 0.3s;
+    }
+
+    .supplement-card:hover .supplement-img {
+      transform: scale(1.05);
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #28a745;
+      margin: 15px 0;
+    }
+
+    .section-title {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 50px;
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .section-title:after {
+      content: '';
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80px;
+      height: 4px;
+      background-color: #ff7e00;
+    }
+
+    .trainer-card {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .trainer-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 5px solid #ff7e00;
+    }
+
+    .trainer-name {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    .trainer-title {
+      color: #ff7e00;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .trainer-social {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .trainer-social a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      background: #f0f0f0;
+      color: #333;
+      border-radius: 50%;
+      transition: all 0.3s;
+    }
+
+    .trainer-social a:hover {
+      background: #ff7e00;
+      color: white;
+    }
+
+    .feature-item {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .feature-icon {
+      font-size: 3rem;
+      color: #ff7e00;
+      margin-bottom: 20px;
+    }
+
+    .feature-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .feature-desc {
+      color: #555;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .contact-info {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+
+    .contact-icon {
+      font-size: 1.5rem;
+      color: #ff7e00;
+      margin-right: 15px;
+      width: 40px;
+      text-align: center;
+    }
+
+    .contact-text {
+      text-align: left;
+    }
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar-brand {
+      font-weight: 700;
+      font-size: 1.5rem;
+    }
+
+    .nav-link {
+      font-weight: 500;
+      margin: 0 8px;
+      transition: color 0.3s;
+    }
+
+    .nav-link:hover {
+      color: #ff7e00 !important;
+    }
+
+    @media (max-width: 768px) {
+      .hero h2 {
+        font-size: 2.5rem;
+      }
+      
+      .hero p {
+        font-size: 1.3rem;
+      }
+      
+      section {
+        padding: 60px 15px;
+      }
+      
+      .footer-content {
+        flex-direction: column;
+      }
+      
+      .footer-section {
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  
+  <header>
+    <h1>DUMBELL & CURLS</h1>
+    <p>Unleash Your Strength</p>
+  </header>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand text-success fw-bold" href="#">Dumbell & Curls</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#diet">Diet Plans</a></li>
+          <li class="nav-item"><a class="nav-link" href="#reviews">Reviews</a></li>
+          <li class="nav-item"><a class="nav-link" href="#supplements">Supplements</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Plans
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Workout Routine</a></li>
+              <li><a class="dropdown-item" href="#">Diet Plan</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Personal Training</a></li>
+              <li><a class="dropdown-item" href="#">Weight Loss Plan</a></li>
+              <li><a class="dropdown-item" href="#">Weight Gain Plan</a></li>
+              <li><a class="dropdown-item" href="#">Strength Training</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Zumba Classes</a></li>
+              <li><a class="dropdown-item" href="#">HIIT Classes</a></li>
+            </ul>
+          </li>
+        </ul>
+    
+        <button class="btn btn-success ms-3" data-bs-toggle="modal" data-bs-target="#joinModal">Join Now</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <h2>Transform Your Body</h2>
+    <p>Train Hard. Stay Strong. Live Healthy.</p>
+    <a href="#services" class="btn-cta">Explore Our Programs</a>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Our Gym in Dehradun</h2>
+    <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto 30px;">At Dumbell & Curls, we believe fitness is a lifestyle. Our mission is to help you build strength, confidence, and a healthy mind-body connection through personalized training programs and expert guidance.</p>
+    <p style="font-size: 1.1rem; max-width: 800px; margin: 0 auto;">Established in 2023, we've become Dehradun's premier gym with state-of-the-art equipment, certified trainers, and a supportive fitness community that motivates you to achieve your fitness goals.</p>
+  </section>
+
+  <section class="why-choose" id="why-choose">
+    <h2 class="section-title">Why Choose Our Gym</h2>
+    <div class="row">
+      <div class="col-md-4 feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-award"></i>
+        </div>
+        <h3 class="feature-title">Certified Trainers</h3>
+        <p class="feature-desc">Our team consists of nationally and internationally certified fitness professionals with years of experience in transforming bodies and lives. We are proud to have the best gym features in Dehradun.</p>
+      </div>
+      <div class="col-md-4 feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-dumbbell"></i>
+        </div>
+        <h3 class="feature-title">State-of-the-Art Equipment</h3>
+        <p class="feature-desc">We provide premium fitness equipment from leading brands to ensure safe and effective workouts for all fitness levels. Experience top gym facilities at our fitness center.</p>
+      </div>
+      <div class="col-md-4 feature-item">
+        <div class="feature-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3 class="feature-title">Supportive Community</h3>
+        <p class="feature-desc">Join a community of like-minded fitness enthusiasts who motivate and inspire each other to reach new heights. Our gym advantages include a welcoming fitness community.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <h2 class="section-title">Our Gym Services</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">
+          <i class="fas fa-user-friends"></i>
+        </div>
+        <h3>Personal Training</h3>
+        <p>Experience personalized fitness programs designed specifically for your goals, body type, and fitness level with our expert personal trainers in Dehradun.</p>
+        <ul>
+          <li>Customized workout plans tailored to your goals</li>
+          <li>One-on-one attention and form correction</li>
+          <li>Flexible scheduling to fit your lifestyle</li>
+          <li>Regular progress tracking and adjustments</li>
+          <li>Nutritional guidance to complement your training</li>
+        </ul>
+        <a href="#" class="btn btn-outline-success mt-3">Learn More</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3>Group Classes</h3>
+        <p>Boost your energy and motivation with our dynamic group fitness classes led by enthusiastic instructors at our gym in Dehradun.</p>
+        <ul>
+          <li>Wide variety of classes including Zumba, HIIT, Yoga, and more</li>
+          <li>Suitable for all fitness levels from beginners to advanced</li>
+          <li>Friendly and motivating group environment</li>
+          <li>Flexible class schedules throughout the day</li>
+          <li>Specialized workshops and fitness events</li>
+        </ul>
+        <a href="#" class="btn btn-outline-success mt-3">View Schedule</a>
+      </div>
+      <div class="card">
+        <div class="card-icon">
+          <i class="fas fa-apple-alt"></i>
+        </div>
+        <h3>Nutrition Plans</h3>
+        <p>Fuel your workouts and lifestyle with customized diet plans designed by our certified nutrition experts at our fitness center.</p>
+        <ul>
+          <li>Personalized meal plans based on your goals and dietary preferences</li>
+          <li>Science-backed nutritional strategies</li>
+          <li>Regular consultations with nutrition experts</li>
+          <li>Supplement recommendations for optimal performance</li>
+          <li>Recipe ideas and meal prep guidance</li>
+        </ul>
+        <a href="#" class="btn btn-outline-success mt-3">Get Started</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="trainers" id="trainers">
+    <h2 class="section-title">Meet Our Fitness Coaches</h2>
+    <div class="row">
+      <div class="col-md-4 trainer-card">
+        <img src="25.jpg" alt="Rajesh Kumar" class="trainer-img">
+        <h3 class="trainer-name">Rajesh Kumar</h3>
+        <p class="trainer-title">Head Trainer & Strength Coach</p>
+        <p>Certified strength coach with 10+ years of experience in bodybuilding and powerlifting. As one of our professional trainers in Dehradun, he transforms bodies and lives.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dumbbells_and_curls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 trainer-card">
+        <img src="24.jpg" alt="Priya Sharma" class="trainer-img">
+        <h3 class="trainer-name">Priya Sharma</h3>
+        <p class="trainer-title">Yoga & Wellness Expert</p>
+        <p>Certified yoga instructor and nutritionist specializing in holistic wellness and mindfulness practices. She is a key part of our gym's fitness community.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dumbbells_and_curls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="col-md-4 trainer-card">
+        <img src="23.jpg" alt="Amit Singh" class="trainer-img">
+        <h3 class="trainer-name">Amit Singh</h3>
+        <p class="trainer-title">HIIT & Functional Training</p>
+        <p>Former athlete turned HIIT trainer specializing in high-intensity workouts and functional movement patterns. He brings energy to our group fitness classes.</p>
+        <div class="trainer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dumbbells_and_curls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <h2 class="section-title">Gym Reviews & Testimonials</h2>
+    <p style="max-width: 800px; margin: 0 auto 40px;">Read our gym reviews and customer testimonials to see why we are the best gym in Dehradun. Our client success stories speak for themselves.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card review-card">
+          <div class="review-header">
+            <img src="8.jpg" alt="Customer" class="review-avatar">
+            <div class="review-info">
+              <h5>Pradeep Kumar</h5>
+              <div class="review-date">October 15, 2024</div>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"Dumbell & Curls transformed my fitness journey. The trainers are knowledgeable and the equipment is top-notch. Highly recommended!"</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card review-card">
+          <div class="review-header">
+            <img src="9.jpg" alt="Customer" class="review-avatar">
+            <div class="review-info">
+              <h5>Priya Sharma</h5>
+              <div class="review-date">February 28, 2025</div>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+          <p>"I've been a member for 6 months and have seen incredible results. The group classes are fun and motivating. The nutrition plan helped me achieve my goals faster!"</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card review-card">
+          <div class="review-header">
+            <img src="17.jpg" alt="Customer" class="review-avatar">
+            <div class="review-info">
+              <h5>Amit Singh</h5>
+              <div class="review-date">January 10, 2025</div>
+            </div>
+          </div>
+          <div class="rating">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>"The best gym in Dehradun! Clean environment, professional trainers, and great community. I've gained 8kg of muscle in 4 months with their weight gain plan."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="supplements" id="supplements">
+    <h2 class="section-title">Gym Supplements Store</h2>
+    <p style="max-width: 800px; margin: 0 auto 40px;">Enhance your fitness journey with our premium gym supplements, including whey protein, pre-workout, BCAA, and creatine. Carefully selected by our nutrition experts to support your training goals.</p>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card supplement-card">
+          <img src="6.jpg" alt="Whey Protein" class="supplement-img card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Premium Whey Protein</h5>
+            <p class="card-text">High-quality protein powder for muscle recovery and growth.</p>
+            <div class="price">₹2,499</div>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card supplement-card">
+          <img src="22.jpg" alt="Pre-Workout" class="supplement-img card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Energy Pre-Workout</h5>
+            <p class="card-text">Boost your energy and focus for intense workout sessions.</p>
+            <div class="price">₹1,899</div>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card supplement-card">
+          <img src="5.jpg" alt="BCAAs" class="supplement-img card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">BCAA Recovery</h5>
+            <p class="card-text">Essential amino acids to support muscle recovery and reduce fatigue.</p>
+            <div class="price">₹1,599</div>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card supplement-card">
+          <img src="11.jpg" alt="Creatine" class="supplement-img card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Pure Creatine</h5>
+            <p class="card-text">Increases strength, power, and muscle mass during high-intensity exercise.</p>
+            <div class="price">₹999</div>
+            <button class="btn btn-success">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Our Gym in Dehradun</h2>
+    <p style="max-width: 800px; margin: 0 auto 40px;">Find our gym address, phone number, and gym hours below. We are located in Dehradun and ready to help you start your fitness transformation.</p>
+    <div class="contact-info">
+      <div class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-envelope"></i>
+        </div>
+        <div class="contact-text">
+          <h4>Email</h4>
+          <p>support@dumbellcurls.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-phone-alt"></i>
+        </div>
+        <div class="contact-text">
+          <h4>Phone</h4>
+          <p>+91 89207 51458</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
+        <div class="contact-text">
+          <h4>Location</h4>
+          <p>Namdev Tower, near Bangali Kothi Chowk, opposite Charan Dass Phool Wala, Naya Gaon, Ajabpur Khurd, Dehradun, Uttarakhand 248121</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">
+          <i class="fas fa-clock"></i>
+        </div>
+        <div class="contact-text">
+          <h4>Hours</h4>
+          <p>Monday - Friday: 6:00 AM - 10:00 PM<br>
+          Saturday - Sunday: 7:00 AM - 9:00 PM</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="modal fade" id="joinModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-success text-white">
+          <h5 class="modal-title">Join Dumbell & Curls</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Full Name</label>
+              <input type="text" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Phone Number</label>
+              <input type="tel" class="form-control" placeholder="Enter your phone number" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Select Plan</label>
+              <select class="form-select" required>
+                <option value="">Choose...</option>
+                <option>Personal Training</option>
+                <option>Weight Loss Plan</option>
+                <option>Weight Gain Plan</option>
+                <option>Strength Training</option>
+                <option>Zumba Classes</option>
+                <option>HIIT Classes</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-success w-100">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>About Dumbell & Curls</h3>
+        <p>Premier gym in Dehradun offering personal training, group fitness classes, and nutrition plans to help you achieve your fitness goals. We are the best gym near you.</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/dumbbells_and_curls/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#trainers">Trainers</a></li>
+          <li><a href="#supplements">Supplements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Our Programs</h3>
+        <ul>
+          <li><a href="#">Personal Training</a></li>
+          <li><a href="#">Weight Loss Plan</a></li>
+          <li><a href="#">Weight Gain Plan</a></li>
+          <li><a href="#">Strength Training</a></li>
+          <li><a href="#">Zumba Classes</a></li>
+          <li><a href="#">HIIT Classes</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Contact Info</h3>
+        <ul>
+          <li><i class="fas fa-map-marker-alt"></i> Namdev Tower, Dehradun</li>
+          <li><i class="fas fa-phone-alt"></i> +91 89207 51458</li>
+          <li><i class="fas fa-envelope"></i> support@dumbellcurls.com</li>
+          <li><i class="fas fa-clock"></i> Mon-Fri: 6AM-10PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>&copy; 2025 Dumbell & Curls. All rights reserved. | <a href="#" style="color: #ff7e00;">Privacy Policy</a> | <a href="#" style="color: #ff7e00;">Terms of Service</a></p>
+    </div>
+  </footer>
+
+</body>
+</html>
